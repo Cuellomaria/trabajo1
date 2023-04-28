@@ -1,0 +1,97 @@
+*{margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;}
+
+/*dos*/
+.dosdiv{display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 50px 10px;}
+
+.img{height: 600px;
+    width: 450px;
+    border-radius: 10px;}
+
+.form{border: 1px solid grey;
+    border-radius: 10px;
+    height: 600px;
+    width: 350px;}
+
+.titulo{text-align: center;
+    padding: 20px 20px;}
+
+.iconos {display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 10px;}
+
+.g {height: 30px;
+    width: 30px;
+    border: 1px solid grey;
+    padding: 8px 20px;
+    border-radius: 5px;}
+
+.f {height: 30px;
+    width: 30px;
+    border: 1px solid grey;
+    padding: 8px 20px;
+    border-radius: 5px;}
+    
+.a {height: 30px;
+    width: 30px;
+    border: 1px solid grey;
+    padding: 8px 20px;
+    border-radius: 5px;}
+
+.or{text-align: center;
+margin: 20xp 20xp;}
+
+.order {display:inline-block;
+    position: relative;
+    text-size-adjust: 3px;
+    }
+
+.order::after,.order::before { content:'';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: grey;
+    top: 0.3cm;
+}
+
+.order::before {left:-80px;}
+.order::after {right:-80px;}
+
+.botones{text-align: center;
+    margin: 8px 8px;}
+
+button{border: none;
+margin: 8px 8px;
+padding: 8px 15px;
+background-color: white;
+color: black;
+font-weight: 600;}
+
+button:hover {background-color: rgba(255, 68, 0, 0.852);
+    padding: 8px 15px;
+    margin: 8px 8px ;
+    color: white;
+    border-radius: 10px ;}
+
+.mail{display: flex;
+    flex-direction: column;
+   }
+.password{display: flex;
+    flex-direction: column;
+    }
+
+.bot {margin: 20px 20px;
+justify-content: center;}
+.sing{padding: 10px 50px;
+justify-content: center;}
+
+.last{font-size: small;
+padding: 10px 10px;}
+
+.register {text-align: center;
+color: orangered;}
