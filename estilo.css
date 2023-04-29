@@ -49,15 +49,14 @@ margin: 20xp 20xp;}
 .order {display:inline-block;
     position: relative;
     text-size-adjust: 3px;
-    }
+    font-size: small;}
 
 .order::after,.order::before { content:'';
     position: absolute;
     width: 70px;
     height: 1px;
     background-color: grey;
-    top: 0.3cm;
-}
+    top: 0.3cm;}
 
 .order::before {left:-80px;}
 .order::after {right:-80px;}
@@ -72,26 +71,42 @@ background-color: white;
 color: black;
 font-weight: 600;}
 
-button:hover {background-color: rgba(255, 68, 0, 0.852);
+.email:hover {background-color: rgba(255, 68, 0, 0.852);
+    padding: 8px 15px;
+    margin: 8px 8px ;
+    color: white;
+    border-radius: 10px ;}
+    .mobile:hover {background-color: rgba(255, 68, 0, 0.852);
     padding: 8px 15px;
     margin: 8px 8px ;
     color: white;
     border-radius: 10px ;}
 
-.mail{display: flex;
+form{display: flex;
     flex-direction: column;
-   }
-.password{display: flex;
-    flex-direction: column;
-    }
+    margin: 10px 10px;
+    font-size: small;}
+input{border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    border-color: grey;
+    align-content: center;}
 
-.bot {margin: 20px 20px;
-justify-content: center;}
-.sing{padding: 10px 50px;
-justify-content: center;}
+.forgoten{margin: 15px ; 
+    font-size: small;}
+
+.bot {justify-content: center;
+    text-align: center;
+    line-height: 5px;}
+
+.sing{padding: 8px 15px;
+    color: white;
+    background-color: rgba(255, 68, 0, 0.852);
+    border-radius: 5px;
+    width: 150px;}
 
 .last{font-size: small;
-padding: 10px 10px;}
+    padding: 10px 10px;}
 
-.register {text-align: center;
-color: orangered;}
+.register {color: orangered;
+    font-size: small;}
