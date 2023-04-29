@@ -84,15 +84,22 @@ font-weight: 600;}
 
 form{display: flex;
     flex-direction: column;
-    margin: 10px 10px;
     font-size: small;}
+.uno{margin: 15px 15px;
+margin-bottom: 5px;}
+
+.dos{margin: 15px 15px;
+margin-bottom: 5px;}
+
 input{border-radius: 5px;
     width: 300px;
     height: 35px;
     border-color: grey;
-    align-content: center;}
+    text-align: center;}
 
-.forgoten{margin: 15px ; 
+.forgoten{margin: 20px ;
+    margin-top: 1px;
+    padding: 0px; 
     font-size: small;}
 
 .bot {justify-content: center;
@@ -106,7 +113,11 @@ input{border-radius: 5px;
     width: 150px;}
 
 .last{font-size: small;
-    padding: 10px 10px;}
+margin-top: 10px;}
 
-.register {color: orangered;
-    font-size: small;}
+ .register{justify-content: center;
+    text-align: center;
+    color: orangered;
+    font-size: small;
+margin-top: 10px;}
+    
