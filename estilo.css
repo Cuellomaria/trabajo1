@@ -6,45 +6,54 @@ font-family: 'Poppins', sans-serif;}
 .dosdiv{display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    margin: 50px 10px;}
+    margin-top: 50px;
+    margin-left: 250px ;
+    margin-right: 250px;}
 
-.img{height: 600px;
+.img{height: 530px;
     width: 450px;
     border-radius: 10px;}
 
 .form{border: 1px solid grey;
     border-radius: 10px;
-    height: 600px;
-    width: 350px;}
+    height: 530px;
+    width: 330px;}
 
 .titulo{text-align: center;
-    padding: 20px 20px;}
+    font-size: 110%;
+    color: rgba(15, 14, 14, 0.844);
+    padding: 12px;}
 
+/*iconos*/
 .iconos {display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 10px 10px;}
+    padding: 10px;}
 
-.g {height: 30px;
-    width: 30px;
+.g {height: 25px;
+    width: 25px;
     border: 1px solid grey;
-    padding: 8px 20px;
-    border-radius: 5px;}
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-right: 25px;}
 
-.f {height: 30px;
-    width: 30px;
+.f {height: 25px;
+    width: 25px;
     border: 1px solid grey;
-    padding: 8px 20px;
-    border-radius: 5px;}
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-right: 25px;}
     
-.a {height: 30px;
-    width: 30px;
+.a {height: 25px;
+    width: 25px;
     border: 1px solid grey;
-    padding: 8px 20px;
+    padding: 8px 16px;
     border-radius: 5px;}
 
 .or{text-align: center;
-margin: 20xp 20xp;}
+    margin: 20xp 20xp;
+    font-weight:bolder;
+    color: rgba(80, 75, 75, 0.871);}
 
 .order {display:inline-block;
     position: relative;
@@ -61,64 +70,91 @@ margin: 20xp 20xp;}
 .order::before {left:-80px;}
 .order::after {right:-80px;}
 
-.botones{text-align: center;
-    margin: 8px 8px;}
+/*botones*/
+.botones{text-align: center;}
 
 button{border: none;
-margin: 8px 8px;
-padding: 8px 15px;
+    padding: 8px 25px 8px 25px;
+    margin: 6px 6px ;
+    margin-top: 20px;
 background-color: white;
-color: black;
+color: rgba(15, 14, 14, 0.844);
 font-weight: 600;}
 
-.email:hover {background-color: rgba(255, 68, 0, 0.852);
-    padding: 8px 15px;
-    margin: 8px 8px ;
+.email:hover {background-color:  rgba(255, 119, 0, 0.852);
+    padding: 8px 25px 8px 25px;
+    margin: 6px 6px ;
     color: white;
-    border-radius: 10px ;}
-    .mobile:hover {background-color: rgba(255, 68, 0, 0.852);
-    padding: 8px 15px;
-    margin: 8px 8px ;
-    color: white;
-    border-radius: 10px ;}
+    border-radius: 10px;
+    font-size: small;
+    font-weight:bolder;}
 
+.mobile:hover {background-color:  rgba(255, 119, 0, 0.852);
+    padding: 8px 25px 8px 25px;
+    margin: 6px 6px ;
+    color: white;
+    font-size: small;
+    font-weight:bolder;
+    border-radius: 10px;}
+
+    /*formulario*/
 form{display: flex;
     flex-direction: column;
     font-size: small;
-    margin: 15px;}
-.uno{margin: 15px 15px;
-margin-bottom: 5px;}
+    font-weight:bolder;
+    color: rgba(80, 75, 75, 0.871);
+    margin-left: 12px;}
 
-.dos{margin: 15px 15px;
-margin-bottom: 5px;}
+form .grup{
+     margin: 15px 15px;
+    margin-bottom: 5px;}
 
-input{border-radius: 5px;
-    width: 300px;
-    height: 35px;
+form .grup input{ border-radius: 5px;
     border: 1.5px solid grey;
+    width: 260px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    outline: none;}
+
+.ic{position: relative;
+    display: flex;
+flex-direction: row;}
+
+i{position: absolute;
+left: 230px;
+bottom: 10px;
+}
+
+.forgoten{margin: 15px 15px;
+    margin-top: 0px;
+    font-size: small;
+    font-weight:bolder;
+    color: rgba(80, 75, 75, 0.871);
     text-align: left;}
 
-.forgoten{margin: 15px ;
-    margin-top: 10px;
-    padding: 0px; 
-    font-size: small;}
-
-.bot {justify-content: center;
+    /*ultima parte*/
+.fin {justify-content: center;
     text-align: center;
-    line-height: 20px;}
+    line-height: 20px;
+    margin-top: -10px;}
 
-.sing{padding: 8px 15px;
+.sing{padding: 12px 35px;
     color: white;
-    background-color: rgba(255, 68, 0, 0.852);
+    font-size: 72%;
+    font-weight:bolder;
+    background-color: rgba(255, 119, 0, 0.852);
     border-radius: 5px;
-    width: 150px;}
+    width: 170px;}
 
-.last{font-size: small;
-margin-top: 10px;}
+.last{font-size: 72%;
+    font-weight:bolder;
+    color: rgba(80, 75, 75, 0.871) ;
+    margin-top: 10px;}
 
- .register{justify-content: center;
-    text-align: center;
-    color: orangered;
-    font-size: small;
-    margin-bottom: 10px;}
+ .register{text-align: center;
+    color:  rgba(255, 119, 0, 0.852);
+    font-size: 72%;
+    margin-bottom: 10px;
+    font-weight: bolder;}
     
